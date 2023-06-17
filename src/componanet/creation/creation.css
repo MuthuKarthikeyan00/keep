@@ -1,0 +1,79 @@
+.frame{
+    margin: 40px 10px 10px 10px;
+    justify-content: center;
+    display: flex;
+    transition-delay: 1s;
+
+}
+
+form{
+
+    border: solid 1px rgb(190, 190, 190);
+    border-radius:10px;
+    text-align: center;
+    height: 150px;
+   max-width: 250px;
+    padding: 10px; 
+    box-shadow: 0px 0px 10px 0px black;
+  
+}
+
+input{
+    width:200px ;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px #393f4d;
+    border-bottom-right-radius:30% ;
+    margin: 10px;
+    padding: 10px;
+    color: black !important;
+}
+
+textarea{
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: black !important;
+    box-shadow: 0px 0px 10px 0px rgba(75, 74, 74, 0.281);
+    height: auto;
+    min-height: 50px;
+}
+.main{
+    margin: 50px 10px 10px 10px;
+    border: solid rgba(145, 143, 143, 0.589) 1px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(155, 152, 147);
+    box-shadow: 0px 0px 10px 0px black;
+
+}
+.main1{
+    
+    justify-content: center;
+    display: flex;
+    
+}
+
+.btn{
+     
+    background-color: #feda6a;
+    padding: 5px 11px;
+    border-radius:50%;
+    color: #393f4d;
+    border: none;
+    margin: 10px 0 0 200px;
+    transition: all linear .1s;
+}
+span{
+    font-size: 25px;
+   
+}
+
+.btn:focus{
+background: #393f4d;
+color:#feda6a ;
+padding: 10px 15spx;
+
+}
